@@ -1,0 +1,25 @@
+.counts {
+  margin-top: 3rem;
+}
+.count-item {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.counts::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.count-item span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e63946;
+}
+
+.count-item p {
+  font-weight: 700;
+  color: #555;
+  font-size: 1.8rem;
+}
