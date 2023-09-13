@@ -3,20 +3,24 @@ import Home from "./pages/Home/Home";
 import "./pages/Home/Home.css";
 import Menubar from "./components/Menubar/Menubar";
 import "../src/components/Menubar/Menu.css";
-import "./pages/Home/HeaderContent/Header.css";
-import About from "./pages/About/About";
+
+import FavPerson from "./pages/FavPerson/FavPerson";
+import FavCities from "./pages/FavCities/FavCities";
+import FavTourists from "./pages/FavTourists/FavTourists";
 import Contact from "./pages/Contact/Contact";
 import "./pages/Home/Pictures/Pic1/Pic1.css";
 import "./pages/Home/Pictures/Pic2/Pic2.css";
 import "./pages/Home/Features/Features.css";
 import "./pages/Home/Footer/Footer.css";
-import "./pages/About/Page/Page.css";
-import "./pages/About/Count/Count.css";
-import "./pages/About/Banner/Banner.css";
+import "./pages/FavPerson/Page/Page.css";
+
+
 import "./pages/Contact/Adress/Adress.css";
 import "./pages/Contact/Form/Form.css";
 import "./pages/Contact/Contact.css";
-import "./pages/About/About.css";
+import "./pages/FavPerson/FavPerson.css";
+import "./pages/FavCities/FavCities.css";
+import "./pages/FavTourists/FavTourists.css";
 import Footer from "./pages/Home/Footer/Footer";
 function App() {
   return (
@@ -27,8 +31,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About />} />
+        <Route path="/favperson" element={<FavPerson />} />
+        <Route path="/favcities" element={<FavCities/>} />
+        <Route path="/favtourists" element={<FavTourists/>} />
         <Route path="/contact" element={<Contact/>} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>

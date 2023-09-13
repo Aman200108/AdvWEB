@@ -1,27 +1,36 @@
-import React from 'react'
+import React from "react";
 
 export const Features = () => {
   return (
     <section class="features">
-    <div class="container">
-    <div class="box-wrapper">
-        <div class="box box-1">
-            <i class="fas fa-route fa-2x text-red"></i>
-            <h2 class="md-heading">Adventure</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, quia. Corporis dolores ipsa a veniam molestias beatae, fuga ex laboriosam.</p>
+      <div class="container">
+        <div class="box-wrapper">
+          <div class="box box-1">
+            <h2 class="md-heading">Matricualtion</h2>
+            <p>
+              I studied my matricualtion from LDA Boys High School.My major
+              subjects in matriculation were Maths,Physics,Chemistry and
+              Computer Science.
+            </p>
+          </div>
+          <div class="box box-2">
+            <h2 class="md-heading">Intermediate</h2>
+            <p>
+              I studied my Intermediate from Punjab College Muslim Town Campus
+              Lahore.My major subjects in Intermediate were Maths,Stats and
+              Computer Science.
+            </p>
+          </div>
+          <div class="box box-3">
+            <h2 class="md-heading">Undergraduate</h2>
+            <p>
+              I am currently my undergradute program of BSSE(Bachelor of Science
+              in Software Engineering) at Univeristy of Management and
+              Technology Lahore.
+            </p>
+          </div>
         </div>
-        <div class="box box-2">
-            <i class="fas fa-strikethrough fa-2x"></i>
-            <h2 class="md-heading">Less Price</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, quia. Corporis dolores ipsa a veniam molestias beatae, fuga ex laboriosam.</p>
-        </div>
-        <div class="box box-3">
-            <i class="fas fa-user-check fa-2x text-red"></i>
-            <h2 class="md-heading">Experice</h2>    
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, quia. Corporis dolores ipsa a veniam molestias beatae, fuga ex laboriosam.</p>
-        </div>
-    </div>
-</div>
-</section>
-  )
-}
+      </div>
+    </section>
+  );
+};

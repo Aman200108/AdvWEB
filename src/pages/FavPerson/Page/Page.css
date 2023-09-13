@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.about {
+  text-align: center;
+}
+
+/* ############# about wrapper styling ####################  */
+
+.about-wrapper {
+  display: block;
+  margin-top: 2rem;
+}
+
+/* .about-wrapper .left{
+    text-align: center;
+    width: 50%;
+}
+
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+*/
+.about-wrapper::after {
+  /* content: ''; */
+  display: block;
+  clear: both;
+}
+
+.about-wrapper li::before {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+.text1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 50px;
+  background: linear-gradient(25deg, brown, white 50%);
+}

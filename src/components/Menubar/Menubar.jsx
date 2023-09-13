@@ -5,7 +5,7 @@ const Menubar = () => {
   return (
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
       <div class="container">
-        <h1 class="logo">WT</h1>
+        <h1 class="logo">Who Am I</h1>
         <ul class="nav-items">
           <li class="nav-item">
             <NavLink className="nav-link" aria-current="page" to="/">
@@ -13,8 +13,19 @@ const Menubar = () => {
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="nav-link" aria-current="page" to="/about">
-              About
+            <NavLink className="nav-link" aria-current="page" to="/favperson">
+              FavPerson
+            </NavLink>
+          </li>
+
+          <li class="nav-item">
+            <NavLink className="nav-link" aria-current="page" to="/favcities">
+              FavCities
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink className="nav-link" aria-current="page" to="/favtourists">
+              FavTourSpots
             </NavLink>
           </li>
           <li class="nav-item">

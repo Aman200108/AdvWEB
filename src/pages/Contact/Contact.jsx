@@ -5,13 +5,12 @@ import Form from "./Form/Form";
 const Contact = () => {
   return (
     <section class="contact-form">
-    <div class="container">
+      <div class="container">
         <div class="form-wrapper">
- <Adress/>
- <Form/>
- </div>
+          <Adress />
+          <Form />
         </div>
-        
+      </div>
     </section>
   );
 };
